@@ -12,9 +12,7 @@ let (?) (p : obj) prop =
   | false -> None
   | _ -> 
     try 
-      ddv.Value
-      |> unbox<'a>
-      |> Some
+      ddv.Value |> unbox<'a> |> Some
     with :? InvalidCastException -> None
 
 type Views = RelativePath< ".\\Views", watch=true >
