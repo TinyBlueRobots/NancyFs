@@ -1,0 +1,13 @@
+NUGET
+  remote: https://nuget.org/api/v2
+  specs:
+    FAKE (3.22.0)
+    FSharp.Management (0.2.0)
+    Microsoft.AspNet.Razor (3.2.2)
+    Nancy (1.1)
+    Nancy.Hosting.Aspnet (1.1)
+      Nancy (>= 1.1)
+    Nancy.Viewengines.Razor (1.1)
+      Microsoft.AspNet.Razor
+      Microsoft.AspNet.Razor (>= 2.0.30506) - framework: >= net40
+      Nancy (>= 1.1)

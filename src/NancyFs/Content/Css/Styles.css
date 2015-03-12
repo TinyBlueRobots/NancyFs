@@ -1,0 +1,22 @@
+﻿* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+.footer, .push {
+  height: 4em;
+}
+
+header, footer {
+  background-color: black;
+}

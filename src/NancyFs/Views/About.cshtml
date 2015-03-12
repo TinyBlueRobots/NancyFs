@@ -1,0 +1,17 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<string>
+
+@{
+  Layout = "Shared/Layout";
+  ViewBag.Title = "About";
+  ViewBag.Description = "All about us";
+}
+
+<h1>About</h1>
+
+We're great
+@if (Model != null)
+{
+  <span>
+    and so are you @Model
+  </span>
+}

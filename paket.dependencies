@@ -1,0 +1,6 @@
+source https://nuget.org/api/v2
+
+nuget Nancy.Hosting.Aspnet
+nuget Nancy.Viewengines.Razor
+nuget FSharp.Management
+nuget fake

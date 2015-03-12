@@ -1,0 +1,15 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Models.NameModel>
+
+@{
+  Layout = "Shared/Layout";
+  ViewBag.Title = "Welcome";
+  ViewBag.Description = "Welcome page";
+}
+
+<h1>Welcome @Model.Name</h1>
+<p>
+  Thanks for coming
+</p>
+<p>
+  <a href="/about?name=@Model.Name">Found out about us</a>
+</p>
