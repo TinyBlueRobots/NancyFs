@@ -10,10 +10,7 @@ let (?) (p : obj) prop =
   let ddv = (p :?> DynamicDictionary).[prop] :?> DynamicDictionaryValue
   match ddv.HasValue with
   | false -> None
-  | _ -> 
-    try 
-      ddv.Value |> unbox<'a> |> Some
-    with :? InvalidCastException -> None
+  | _ -> ddv.TryParse<'a>() |> Some
 
 type Views = RelativePath< ".\\Views", watch=true >
 
