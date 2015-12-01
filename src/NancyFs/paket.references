@@ -1,3 +1,4 @@
 Nancy.Hosting.Aspnet
 Nancy.Viewengines.Razor
 FSharp.Management
+MSBuild.Microsoft.VisualStudio.Web.targets
