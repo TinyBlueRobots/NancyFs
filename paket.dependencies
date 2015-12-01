@@ -4,3 +4,4 @@ nuget Nancy.Hosting.Aspnet
 nuget Nancy.Viewengines.Razor
 nuget FSharp.Management
 nuget fake
+nuget MSBuild.Microsoft.VisualStudio.Web.targets
